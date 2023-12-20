@@ -1,0 +1,326 @@
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~
+$ mkdir rep_testrusau
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~
+$ cd rep_testrusau
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/rep_testrusau
+$ git clone git@github.com:testrusau/testrusau.git
+Cloning into 'testrusau'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 1), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (1/1), done.
+
+iceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "File Readme copied from testrusau repository"
+[main 5584be6] File Readme copied from testrusau repository
+ 1 file changed, 90 insertions(+), 16 deletions(-)
+ 
+ NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ vi README.md
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/about me block was edited"
+[main 51416ba] README.md/about me block was edited
+ 2 files changed, 8 insertions(+), 3 deletions(-)
+ delete mode 100644 .README.md.swp
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Contacts  block was edited"
+[main 6f9b27f] README.md/Contacts  block was edited
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Social media block was edited"
+[main 3f0e600] README.md/Social media block was edited
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Testing documentation  block was edited"
+[main 37b6e4a] README.md/Testing documentation  block was edited
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Web App testing block was edited"
+[main 2b21482] README.md/Web App testing block was edited
+ 1 file changed, 2 insertions(+), 9 deletions(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Mobile App testing block was edited"
+[main 7fe7d9b] README.md/Mobile App testing block was edited
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Databases  block was edited"
+[main 942204d] README.md/Databases  block was edited
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Coding  block was edited"
+[main b0f1409] README.md/Coding  block was edited
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git push
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (30/30), 6.16 KiB | 1.54 MiB/s, done.
+Total 30 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/Niceunwise/Niceunwise.git
+   dfc5a50..b0f1409  main -> main
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Some minor editing"
+[main 28dbcd2] README.md/Some minor editing
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 305.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Niceunwise/Niceunwise.git
+   b0f1409..28dbcd2  main -> main
+
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add . 
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Some links were fixed"
+[main 6454669] README.md/Some links were fixed
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add . 
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/Formatting"
+[main 08822b6] README.md/Formatting
+ 1 file changed, 4 insertions(+)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 596 bytes | 596.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Niceunwise/Niceunwise.git
+   28dbcd2..08822b6  main -> main
+   
+  #Создание репозиториев для тестовых артефактов 
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ cd ~
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio
+$ cd Databases
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases
+$ git init
+Initialized empty Git repository in C:/Users/NiceUnwise/Desktop/Portfolio/Databases/.git/
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (master)
+$ git branch -m master main
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$  git remote add Databases https://github.com/Niceunwise/Databases
+
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git pull Databases main
+ 
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop
+$ cp C:/Users/NiceUnwise/Desktop/Portfolio/MongoDB.pdf C:/Users/NiceUnwise/Desktop/Portfolio/Databases
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop
+$ cp C:/Users/NiceUnwise/Desktop/Portfolio/MySQL.pdf C:/Users/NiceUnwise/Desktop/Portfolio/Databases
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop
+$ cd Portfolio
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio
+$ cd Databases
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git commit -m "2 files added"
+[main c2c0311] 2 files added
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 MongoDB.pdf
+ create mode 100644 MySQL.pdf
+
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git push --set-upstream Databases main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.17 MiB | 603.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Niceunwise/Databases
+   7f7d41c..c2c0311  main -> main
+branch 'main' set up to track 'Databases/main'.
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git commit -m "README.md was modified"
+[main c704b74] README.md was modified
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 660 bytes | 660.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Niceunwise/Databases
+   c2c0311..c704b74  main -> main
+   
+   
+   
+   NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting
+$ git init
+Initialized empty Git repository in C:/Users/NiceUnwise/Desktop/Portfolio/APItesting/.git/
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (master)
+$ git branch -m master main
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/Databases (main)
+$ cd ..
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio
+$ cd APItesting
+
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (main)
+$ git remote add APItesting https://github.com/Niceunwise/APItesting
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (main)
+$ git pull APItesting  main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 604 bytes | 14.00 KiB/s, done.
+From https://github.com/Niceunwise/APItesting
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> APItesting/main
+ 
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (main)
+$ git add . 
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (main)
+$ git commit -m "README.md was edited"
+[main 48fd3c3] README.md was edited
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use   
+
+    git push --set-upstream APItesting main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.       
+
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Desktop/Portfolio/APItesting (main)
+$  git push --set-upstream APItesting main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 779 bytes | 779.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Niceunwise/APItesting
+   b229cb1..48fd3c3  main -> main
+branch 'main' set up to track 'APItesting/main'.
+
+# Добавление блока Testing artifacts 
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git add .
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git commit -m "README.md/new block was added"
+[main b7b0c73] README.md/new block was added
+ 1 file changed, 13 insertions(+)
+
+NiceUnwise@WIN-FTB2OR85MAI MINGW64 ~/Rep_Niceunwise/Niceunwise (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 469 bytes | 234.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0        
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Niceunwise/Niceunwise.git
+   08822b6..b7b0c73  main -> main
+   
+   
